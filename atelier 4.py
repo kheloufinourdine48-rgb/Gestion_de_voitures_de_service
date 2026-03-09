@@ -30,3 +30,10 @@ class Employe:
         print(f"{self.nom} a rendu la voiture {self.voiture_service.matricule}.")
         self.voiture_service.chauffeur = None
         self.voiture_service = None
+class Voiture:
+    def __init__(self, matricule, annee, kilometrage, marque):
+        self.matricule = matricule
+        self.annee = annee
+        self.kilometrage = kilometrage
+        self.marque = marque
+        self.chauffeur = None
