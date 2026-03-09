@@ -68,3 +68,5 @@ e1.retirer_voiture()
 e1.afficher_info()
 v1.afficher_info()
 
+e2.affecter_voiture(v3)
+
