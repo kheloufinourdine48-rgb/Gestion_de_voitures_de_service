@@ -44,3 +44,9 @@ class Voiture:
             print(f"Attribuée à : {self.chauffeur.nom} {self.chauffeur.prenom}")
         else:
             print("Aucun chauffeur")
+e1= Employe("265", "Zoubir", "jshg")
+e2= Employe("P002", "Tahar", "ravah")
+e3= Employe("P003", "Mohand", "MERIEM")
+v1= Voiture("A54dd", 2012, 128000, "Camaro")
+v2= Voiture("Bfhr52", 1998, 218000, "Maruti")
+v3= Voiture("Cf562e", 2021, 35000, "BMW")
